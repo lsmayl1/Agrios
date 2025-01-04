@@ -1,0 +1,222 @@
+
+.wrapper{
+	margin-top: 30px;
+}
+.colorline{
+	width: calc(100% - 8px); /* Sağdan ve soldan toplam 10px boşluk */
+	height: 4px;
+	margin: 0 auto;
+	display: flex;
+}
+.section {
+	flex: 1;
+	height: 100%;
+  }
+.greenline{
+	background-color: #4BAF47;
+}
+.yellowline{
+	background-color: #C5CE38;
+}
+.orangeline{
+	background-color: #EEC044;
+}
+
+.navbar{
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+}
+.logosection{
+	width: 320px;
+}
+.sociallist{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+
+}
+.socialmediasection{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+}
+.logoback{
+	width: 40px;
+	height: 40px;
+	background-color: #F8F7F0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+}
+
+.contactsection{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.innersection{
+	display: flex;
+	flex-direction: row;
+	
+
+}
+.contactlogo{
+	margin-right: 20px;
+}
+
+
+.contacttitle h5 {
+	color: #878680;
+	font-family: "Manrope", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 12px;
+}
+.number h4 {
+	color: #1F1E17;
+	font-family: "Manrope", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	width: max-content;
+	
+}
+
+
+.contactpipe{
+	height:60px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #E4E2D7;
+	width: 1px;	
+}
+
+
+.iconcontainer{
+	margin-top:3px ;
+	margin-left: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.navlinks{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 60px;
+}
+
+.navlinks ul{
+	gap: 60px;
+	display: flex;
+	flex-direction: row;
+	margin-right: 15px;
+}
+.navlinks ul li a{
+	display: flex;
+	flex-direction: row;
+	font-family: "Manrope", serif;
+	font-optical-sizing: auto;
+	color: #878680;
+	font-weight: 600;
+	font-style: normal;
+}
+.header{
+	display: flex;
+}
+.searchbucket{
+	height: 65px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	gap: 25px;
+	flex-direction: row;
+}
+.searchicon{
+	margin-left: 20px;
+}
+.headerbackground img{
+	position: absolute;
+
+	z-index: -1;
+	width: 100%;
+	height: 70px;
+
+
+}
+
+/* Menü düzeni */
+.navlinks ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  display: flex; 
+ 
+}
+.headerwrapper{
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+}
+.navlinks ul li {
+  position: relative; 
+  display: flex;
+  align-items: center; 
+  gap: 5px; 
+  cursor: pointer;
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  color: #878680;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* İkon düzeni */
+.icon-container {
+  position: relative; /* Dropdown'u konumlandırmak için */
+  display: inline-block;
+}
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+}
+/* Dropdown içeriği */
+.dropdown {
+  display: none; /* Varsayılan olarak gizli */
+  position: absolute;
+  top: 100%; /* Ana elemana göre aşağı hizalanır */
+  left: 0;
+  background-color: #f9f9f9; /* Açık arkaplan */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  z-index: 1000;
+  min-width: 150px; /* Minimum genişlik */
+  border-radius: 5px; /* Köşeleri yuvarlat */
+  padding: 10px 0;
+}
+
+/* Dropdown linkleri */
+.dropdown a {
+  display: block;
+  padding: 10px 20px;
+
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: #E4E2D7; /* Hover arkaplan rengi */
+  color: #fff; /* Hover metin rengi */
+}
+
+/* İkona hover yapıldığında dropdown göster */
+.icon-container:hover .dropdown {
+  display: block; /* Dropdown görünür olur */
+}
