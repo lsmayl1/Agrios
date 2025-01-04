@@ -4,25 +4,24 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'card1img': "url('./src/assets/images/card1.png')",
-        'card2img': "url('./src/assets/images/card2.png')",
-        'card3img': "url('./src/assets/images/card3.png')",
-        'card4img': "url('./src/assets/images/card4.png')", 
-        'card1icon': "url('./src/assets/images/card1.svg')", 
-        'card2icon': "url('./src/assets/images/card2.svg')", 
-        'card3icon': "url('./src/assets/images/card3.svg')", 
-        'card4icon': "url('./src/assets/images/card4.svg')",
-        
+        card1img: "url('/image/card1.png')",
+        card2img: "url('/image/card2.png')",
+        card3img: "url('/image/card3.png')",
+        card4img: "url('/image/card4.png')",
+        card1icon: "url('/image/card1.svg')",
+        card2icon: "url('/image/card2.svg')",
+        card3icon: "url('/image/card3.svg')",
+        card4icon: "url('/image/card4.svg')",
       },
       fontFamily: {
-        grace: ['"Covered By Your Grace"', 'cursive'],
-        manrope: ['"Manrope"', 'sans-serif'],
+        grace: ['"Covered By Your Grace"', "cursive"],
+        manrope: ['"Manrope"', "sans-serif"],
       },
       fontWeight: {
-        normal: '400',
-        medium: '500',
-        bold: '700',
-        extrabold: '800',
+        normal: "400",
+        medium: "500",
+        bold: "700",
+        extrabold: "800",
       },
       colors: {
         bgMilk: "#F8F7F0", // Replace with your HEX color
