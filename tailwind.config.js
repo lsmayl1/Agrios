@@ -12,6 +12,7 @@ export default {
         card2icon: "url('/image/card2.svg')",
         card3icon: "url('/image/card3.svg')",
         card4icon: "url('/image/card4.svg')",
+        plantsimg: "url('/image/plantsbgimage.png')",
       },
       fontFamily: {
         grace: ['"Covered By Your Grace"', "cursive"],
@@ -27,6 +28,7 @@ export default {
         bgMilk: "#F8F7F0", // Replace with your HEX color
         EEC044: "#EEC044",
         C5CE38: "#C5CE38",
+        "4BAF47": "#4BAF47",
       },
       container: {
         center: true,
