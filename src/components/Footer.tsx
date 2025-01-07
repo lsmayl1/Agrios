@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo from "/image/logowhite.png";
 
 function Footer() {
