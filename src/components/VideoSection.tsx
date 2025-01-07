@@ -14,10 +14,13 @@ function VideoSection() {
         </div>
       </div>
 
-      <div className="bg-plantsimg w-full bg-center -mt-[130px] h-[691px] bg-cover bg-no-repeat">
-		<div className=""></div>
-	  </div>
+      <div className="bg-plantsimg w-full bg-center -mt-[130px] h-[691px] bg-cover bg-no-repeat flex">
+        <div className="container">
+          <h1 className="text-[70px] font-manrope font-extrabold text-white w-[490px] mt-[180px]">Agriculture Matters to the Future of Development</h1>
+        </div>
+      </div>
     </div>
+    
   );
 }
 

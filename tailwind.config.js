@@ -1,3 +1,5 @@
+import { comment } from "postcss";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -13,6 +15,16 @@ export default {
         card3icon: "url('/image/card3.svg')",
         card4icon: "url('/image/card4.svg')",
         plantsimg: "url('/image/plantsbgimage.png')",
+        recentlyProjectsCard1: "url('/image/RecentlyProjectsCard1.png')",
+        recentlyProjectsCard2: "url('/image/RecentlyProjectsCard2.png')",
+        recentlyProjectsCard3: "url('/image/RecentlyProjectsCard3.png')",
+        avatar: "url('/image/avatar.png')",
+        benefitsimg: "url('/image/Benefitsimg.png')",
+        newscard1: "url('/image/news-card-1.png')",
+        newscard2: "url('/image/news-card-2.png')",
+        newscard3: "url('/image/news-card-3.png')",
+        profile: "url('/image/comment.svg')",
+        comment: "url('/image/profile.svg')",
       },
       fontFamily: {
         grace: ['"Covered By Your Grace"', "cursive"],
@@ -29,6 +41,10 @@ export default {
         EEC044: "#EEC044",
         C5CE38: "#C5CE38",
         "4BAF47": "#4BAF47",
+        "1F1E17": "#1F1E17",
+        "878680": "#878680",
+        "24231D": "#24231D",
+        A5A49A:"#A5A49A",
       },
       container: {
         center: true,
