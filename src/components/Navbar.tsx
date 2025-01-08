@@ -19,13 +19,14 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="flex flex-col ">
-      <div className="h-[4px] w-full flex">
+    <div className="flex flex-col">
+      <div className="h-[4px]  w-full flex">
         <div className="bg-EEC044 w-full h-[4px] "></div>
         <div className="bg-C5CE38 w-full h-[4px] "></div>
         <div className="bg-4BAF47 w-full h-[4px] "></div>
       </div>
-      <div className="container mt-[32px] h-auto flex max-xl:flex-col  items-center border border-red-500 border-1">
+
+      <div className="container order-1 relative mt-[32px] h-auto flex max-xl:flex-col  items-center ">
         <div className="flex justify-center items-center w-[270px] max-xl:py-[20px] ">
           <a href="#">
             <img src={logo} alt="" />
@@ -134,7 +135,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="bg-headerbg w-full  releative h-[79px] bg-cover flex justify-center max-sm:justify-end items-center flex-wrap">
+      <div className="bg-headerbg w-full order-2 z-20 h-[79px] bg-cover flex justify-center max-sm:justify-end items-center flex-wrap">
         <div className="max-sm:hidden ">
           <ul className="flex flex-wrap gap-[60px] max-lg:gap-[30px] max-md:gap-[15px] ">
             <li
@@ -244,14 +245,14 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="p-4 absolute">
+        <div className="p-4 absolute z-60">
           <MdOutlineMenu
             className="w-[40px] hidden max-sm:block"
             onClick={DropdownController}
           />
         </div>
         {isOpen ? (
-          <div className="w-3/6 bg-white h-screen shadow-lg p-5 hidden max-sm:block">
+          <div className="w-3/6 bg-white h-screen shadow-lg p-5  hidden max-sm:block">
             <ul className="flex flex-col  w-3/6 gap-[10px] ">
               <li
                 className="flex flex-col coursor-pointer items-center
