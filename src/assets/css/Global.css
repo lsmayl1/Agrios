@@ -1,10 +1,5 @@
 /* Universal Reset */
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap');
-
-.container{
-	max-width: 1180px;
-	margin: 0 auto;
-}
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
 
 *,
 *::before,
@@ -12,11 +7,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Box-model hesaplamaları daha doğru olur */
-  border: 0;
   outline: none; /* Tüm elemanlar için kenar boşlukları ve border sıfırlanır */
 }
-
-html, body {
+button,
+input,
+textarea {
+  border: 0;
+}
+html,
+body {
   width: 100%;
   height: 100%;
   font-size: 16px; /* Varsayılan font büyüklüğü */
@@ -30,20 +29,27 @@ a {
   text-decoration: none; /* Alt çizgi kaldırılır */
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font: inherit; /* Yazı tipini miras alır */
   background: none;
   border: none;
   appearance: none; /* Varsayılan tarayıcı stilleri kaldırılır */
 }
 
-img, video, canvas, svg {
+img,
+video,
+canvas,
+svg {
   max-width: 100%; /* Görsel içeriklerin taşıp bozulmasını engeller */
   height: auto; /* Yüksekliği orantılı olarak ayarlar */
   display: block; /* Varsayılan olarak inline olmasını engeller */
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none; /* Varsayılan madde işaretleri kaldırılır */
 }
 
@@ -53,13 +59,15 @@ table {
   width: 100%; /* Tablolar tam genişlikte olur */
 }
 
-th, td {
+th,
+td {
   text-align: left;
   vertical-align: top; /* Hücre içeriği üst hizalanır */
   padding: 0;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; /* Alıntı işaretlerini kaldırır */
 }
 
@@ -73,7 +81,8 @@ hr {
   background: #ddd; /* İnce bir gri çizgi olarak görünür */
 }
 
-code, pre {
+code,
+pre {
   font-family: monospace; /* Monospace font kullanılır */
 }
 
@@ -81,7 +90,8 @@ button {
   cursor: pointer; /* Butonlara el imleci ekler */
 }
 
-input, textarea {
+input,
+textarea {
   resize: none; /* Varsayılan boyutlandırma kaldırılır */
 }
 

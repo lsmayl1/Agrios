@@ -25,6 +25,7 @@ export default {
         newscard3: "url('/image/news-card-3.png')",
         profile: "url('/image/comment.svg')",
         comment: "url('/image/profile.svg')",
+        headerbg:"url('/image/Section.png')",
       },
       fontFamily: {
         grace: ['"Covered By Your Grace"', "cursive"],
@@ -44,7 +45,11 @@ export default {
         "1F1E17": "#1F1E17",
         "878680": "#878680",
         "24231D": "#24231D",
-        A5A49A:"#A5A49A",
+        A5A49A: "#A5A49A",
+        EEC044: "#EEC044",
+        C5CE38: "#C5CE38",
+        "4BAF47": "#4BAF47",
+        E4E2D7:"#E4E2D7",
       },
       container: {
         center: true,
