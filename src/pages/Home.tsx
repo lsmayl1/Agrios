@@ -13,14 +13,18 @@ function Home() {
     <>
       <Navbar />
       <Hero/>
-      {/* <Hero />
       <ServicesSection />
       <VideoSection />
       <RecentlyProjects />
       <Testimonials />
+      
+     
+      
+   
+     
       <Benefits />
       <News />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

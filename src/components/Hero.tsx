@@ -54,6 +54,7 @@ function Hero() {
             </div>
           </div>
         </div>
+
         <div className="container  -mt-[60px] gap-[15px] max-md:flex-col flex-center">
           <div className="bg-white w-[370px] h-[264px] rounded-[10px] shadow-lg flex flex-col items-center justify-center">
             <div className="mt-[48px] mb-[29px]ing">
@@ -104,28 +105,29 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="container flex mt-[120px] w-[1200px] mx-auto">
-          <div className="w-[600px] flex-1">
+
+        <div className="container flex mt-[120px] mx-auto">
+          <div className="w-[600px] flex-1 max-lg:hidden">
             <img src={introducsion} alt="" />
           </div>
-          <div className="flex-1">
-            <h5 className="font-grace  text-[24px] text-EEC044">
+          <div className="flex-1 hero">
+            <h5 className="font-grace  text-[24px] text-EEC044 ">
               Our Introductions
             </h5>
-            <h1 className="font-manrope font-extrabold text-[48px] leading-[60px] text-1F1E17">
+            <h1 className="font-manrope font-extrabold text-[48px] leading-[60px] text-1F1E17 max-xl:text-[24px] max-xl:leading-[35px]">
               Agriculture & Organic <br /> Product Farm
             </h1>
 
             <h5
               className="font-manrope font-extrabold text-[26px] leading-[66px] 
-            text-4BAF47"
+            text-4BAF47 max-xl:leading-[35px] max-[430px]:text-[13px]"
             >
               Agrios is the largest global organic farm.
             </h5>
 
             <p
               className="font-manrope font-medium text-[16px] leading-[25px] 
-            text-878680 mb-[41px]"
+            text-878680 mb-[41px] max-xl:mb-[20px] w-[500px] max-sm:w-[400px] max-[430px]:w-[300px]"
             >
               There are many variations of passages of lorem ipsum available but
               the majority have suffered alteration in some form by injected
@@ -134,13 +136,13 @@ function Hero() {
 
             <div className="flex">
               <div className="flex">
-                <div className="">
+                <div className="flex">
                   <img src={basket} alt="" />
                 </div>
                 <div className="ml-[20px] flex items-center">
                   <p
                     className="font-manrope font-extrabold text-[20px] leading-[28px] 
-            text-1F1E17"
+            text-1F1E17  dynamic-size"
                   >
                     Growing fruits <br /> vegetables
                   </p>
@@ -153,7 +155,7 @@ function Hero() {
                 <div className="ml-[20px] flex items-center">
                   <p
                     className="font-manrope font-extrabold text-[20px] leading-[28px] 
-            text-1F1E17"
+            text-1F1E17   dynamic-size"
                   >
                     Tips for ripening <br />
                     your fruits

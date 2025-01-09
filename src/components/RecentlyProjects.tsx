@@ -1,3 +1,4 @@
+
 function RecentlyProjects() {
   return (
     <div className="container mt-[50px] flex justify-center flex-col">
@@ -13,7 +14,7 @@ function RecentlyProjects() {
           </h1>
         </div>
       </div>
-      <div className="flex justify-center gap-[20px] mt-10">
+      <div className="flex justify-center gap-[20px] mt-10 max-xl:flex-wrap">
         <div className="w-[362px] h-[558px] bg-recentlyProjectsCard2 bg-no-repeat flex felx-col">
           <div className="mt-auto">
             <h1 className="font-manrope font-extrabold  text-white text-[30px] w-[163px] pb-[60px] px-[40px]	">

@@ -9,4 +9,19 @@
 	}
 	
   }
+
+  @layer utilities {
+	@media (max-width: 430px) {
+	  .dynamic-size{
+		font-size:12px;
+		line-height: 20px;
+	  }
+	}
+	@media (max-width: 640px) {
+		.dynamic-size{
+		  font-size:14px;
+		  line-height: 20px;
+		}
+	  }
+  }
   
